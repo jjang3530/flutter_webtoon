@@ -41,10 +41,9 @@ class Webtoon extends StatelessWidget {
                         color: Colors.black.withOpacity(0.5))
                   ]),
               clipBehavior: Clip.hardEdge,
-              child: Image.network(thumb, headers: const {
-                "User-Agent":
-                    "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
-              }),
+              child: Image.network(
+                thumb,
+              ),
             ),
           ),
           const SizedBox(height: 10),
